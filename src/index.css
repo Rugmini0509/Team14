@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+.navbar-login-btn {
+  background-color: #0fc36f;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.navbar-login-btn:hover {
+  background-color: #44ae7c;
+}
+.custom-login-btn {
+  background-color: #4fbf8b;
+  color: #e8e8e8;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.custom-login-btn:hover {
+  background-color: #44ae7c;
+}
+@theme{
+  --color-primary: #4fbf8b;
+  --color-primary-dull: #44ae7c;
+}
+
+*{
+  font-family: "Poppins", sans-serif; 
+}
+
+.no-scrollbar ::-webkit-scrollbar{
+  display: none;
+}
